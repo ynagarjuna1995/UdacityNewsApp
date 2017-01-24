@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_margin="@dimen/SinglepublisherRootMargin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="@dimen/articleTextSize"
+        android:textStyle="bold"
+        tools:text="@string/ArticleTitle" />
+
+    <TextView
+        android:id="@+id/section_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/publisherMargin"
+        android:background="@color/colorAccent"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/pusblisherTextSize"
+        android:textStyle="italic|bold"
+        tools:text="@string/ArticlePublisher" />
+
+</LinearLayout>
